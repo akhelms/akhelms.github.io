@@ -52,7 +52,7 @@ a:hover, a:active {
 
 #resume {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
 }
 
 #resume h1 {
