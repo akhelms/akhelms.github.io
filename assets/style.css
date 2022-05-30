@@ -47,3 +47,39 @@ a:hover, a:active {
   color: var(--color-text-main);
 }
 
+
+/* RESUME FORMATTING */
+
+#resume {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+#resume h1 {
+  font-size: 3em;
+  font-style: bold;
+  color: var(--color-text-accent);
+  text-align: center;
+}
+
+#resume h2 {
+  font-size: 1.5em;
+  font-style: bold;
+  text-align: right;
+}
+
+#resume .job {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+#resume .job .title {
+  order: 1;
+  flex: 3 1 auto;
+}
+
+#resume .job .date {
+  order: 2;
+  flex: 1 1 auto;
+}
