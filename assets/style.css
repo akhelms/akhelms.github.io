@@ -56,16 +56,16 @@ a:hover, a:active {
 }
 
 #resume h1 {
-  font-size: 3em;
-  font-style: bold;
+  font-size: 2em;
+  font-weight: bold;
   color: var(--color-text-accent);
   text-align: center;
 }
 
 #resume h2 {
-  font-size: 1.5em;
-  font-style: bold;
-  text-align: right;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: left;
 }
 
 #resume .job {
