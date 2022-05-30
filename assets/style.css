@@ -13,8 +13,6 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vw;
-  width: 100vw;
 }
 
 header {
@@ -31,7 +29,7 @@ header {
 main {
   color: var(--color-text-main);
   background-color: var(--color-bg-main);
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: europa, sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -60,17 +58,19 @@ a:hover, a:active {
   font-weight: bold;
   color: var(--color-text-accent);
   text-align: center;
+  margin: 1em;
 }
 
 #resume h2 {
   font-size: 1.25em;
   font-weight: bold;
   text-align: left;
+  margin: 0.5em;
 }
 
 #resume .job {
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: stretch;
   align-content: flex-start;
 }
 
